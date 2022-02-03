@@ -269,7 +269,10 @@
 @media (max-width: 90rem){
 
   h2 {
-    font-size: 5rem;
+    font-size: 4rem;
+  }
+  h6{
+    font-size: 2rem;
   }
 
 
