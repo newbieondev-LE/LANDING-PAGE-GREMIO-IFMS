@@ -326,6 +326,10 @@
     padding-top: 0;
   }
 
+  .index-content .intro-img a button {
+    width: 40rem;
+  }
+
   .index-content, .grid{
     grid-template-columns: 1fr;
   }
