@@ -58,7 +58,7 @@ h5 {
 }
 
 h6 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 a {
@@ -67,5 +67,7 @@ a {
 }
 
 p{
+  width: 90%;
+  text-align: justify;
   margin-bottom: 3rem;
 }
