@@ -23,7 +23,7 @@
   max-width: 100%;
   min-height: auto;
   align-items: center;
-  margin-top: -30rem;
+  margin-top: -15rem;
   margin-bottom: -10rem;
 }
 
@@ -337,10 +337,6 @@
   }
   p {
     font-size: 1rem;
-  }
-
-  .space{
-    padding-top: 0;
   }
 
   .index-content .intro-img img {
