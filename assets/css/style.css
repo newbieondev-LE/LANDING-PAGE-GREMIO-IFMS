@@ -79,6 +79,10 @@
   justify-content: center;
 }
 
+.intro-text-content .detalhe {
+  margin-bottom: -7rem;
+}
+
 
 .intro-img img{
   max-width: 100%;
