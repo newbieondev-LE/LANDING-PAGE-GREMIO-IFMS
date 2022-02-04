@@ -7,17 +7,20 @@
 }
 
 .index-content .intro-img{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   align-items: center;
 }
 
 .index-content .intro-img img {
   display: flex;
   flex-flow: column wrap;
-  max-width: 50%;
+  max-width: 100%;
   min-height: auto;
   align-items: center;
   margin-top: -30rem;
-  margin-bottom: -20rem;
+  margin-bottom: -10rem;
 }
 
 .index-content .intro-img a button {
@@ -323,7 +326,7 @@
     padding-top: 0;
   }
 
-  .index-content{
+  .index-content, .grid{
     grid-template-columns: 1fr;
   }
 
