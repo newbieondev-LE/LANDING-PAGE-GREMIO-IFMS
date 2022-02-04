@@ -377,6 +377,14 @@
     grid-template-columns: 1fr;
   }
 
+  .index-text-content h2{
+    font-size: 100%;
+  }
+
+  .index-content img {
+    width: 100%;
+  }
+
   .intro-text-content h6{
     font-size: 100%;
   }
