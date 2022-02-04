@@ -1,3 +1,17 @@
+<?php
+  include_once("conectar.php");
+
+  $first_name = $_POST['first-name'];
+  $last_name = $_POST['last-name'];
+  $email = $_POST['email'];
+  $mensagem = $_POST['message'];
+
+  $sql = "INSERT INTO Usuarios (first_name, last_name, email, mensagem) VALUES ('$first_name', '$last_name', '$email', $mensagem)";
+
+  $resultado = mysqli_query($strcon, $sql);
+  mysqli_close($strcon);
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -67,7 +81,7 @@
       </div>
 
       <div class="contact-form">
-        <form action="/assets/php/enviando.php" method="post" netlify>
+        <form action="" method="post">
           <fieldset class="form-grid">
             <legend>Contact me</legend>
 
