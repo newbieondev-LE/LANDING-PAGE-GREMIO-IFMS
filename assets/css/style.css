@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.index-content .index-text-content{
+  text-align: center;
+}
+
 .index-content .intro-img img {
   display: flex;
   flex-flow: column wrap;
@@ -42,6 +46,17 @@
   padding-top: 8rem;
 }
 
+.content{
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+}
+
+.content .iframe{
+  width: 100%;
+  height: 70rem;
+}
+
 .intro-content{
   position: relative;
   /* top: +8rem; */
@@ -56,6 +71,7 @@
   flex-flow: column wrap;
   justify-content: center;
 }
+
 
 .intro-img img{
   max-width: 100%;
