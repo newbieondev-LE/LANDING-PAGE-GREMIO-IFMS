@@ -372,6 +372,14 @@
   .intro-content, .grid {
     grid-template-columns: 1fr;
   }
+
+  .intro-text-content h6{
+    font-size: 110%;
+  }
+
+  .intro-text-content p{
+    font-size: 100%;
+  }
   
   .gallery-img {
     width: 100%;
