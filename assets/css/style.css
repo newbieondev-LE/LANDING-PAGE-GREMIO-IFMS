@@ -153,11 +153,31 @@
 }
 
 .gallery-img {
+  justify-content: center;
   width: 100%;
   display: flex;
   max-width: 100%;
   max-height: 100%;
   overflow: hidden;
+}
+
+.uma-img img {
+  width: 100%;
+  display: flex;
+  max-width: 50%;
+  max-height: 50%;
+  overflow: hidden;
+}
+
+.uma-img img {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  transition: all 300ms ease-in-out;
+}
+
+.uma-img img:hover {
+  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
 
 .gallery-img img {
@@ -176,6 +196,12 @@
   margin-top: 2rem;
 }
 
+.centralizar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .contact-form {
   grid-column: span 2;
